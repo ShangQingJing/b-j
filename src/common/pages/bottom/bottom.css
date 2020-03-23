@@ -1,0 +1,45 @@
+.Navbottom{
+    width:7.5rem;
+    background:red;
+    position:fixed;
+    left:0rem;
+    bottom:0rem;
+    display:flex;
+    flex-direction:row;
+    padding:0.1rem 0 0.1rem 0;
+    box-sizing: border-box;
+}
+ .Leftbottom{
+     width:3.75rem;
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ .rightbottom{
+    width:3.75rem;
+    text-align:center
+}
+.Navbottom.active{
+    display: none;
+}
+.Bottomcenter{
+    position: relative;  
+}
+.Bottomcenter img{
+    width:0.53rem;
+    height:0.54rem;
+    position: relative;
+}
+.Bottomcenter .text{
+    color:#666;
+font-size:0.28rem;
+position: relative;
+font-weight: Medium;
+}
+a:Link{
+    text-decoration: none;
+}
+a:hover {
+
+    text-decoration: none;
+    }

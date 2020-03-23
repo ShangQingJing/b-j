@@ -1,0 +1,19 @@
+.Tabcon{
+    width:7.5rem;
+    height:0.8rem;
+    background:#0098ff;;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+    font-size:0.26rem;
+    color:#fff;
+    font-weight: Medium;
+
+}
+.Tabcon img{
+    width:0.13rem;
+    height:0.23rem;
+}

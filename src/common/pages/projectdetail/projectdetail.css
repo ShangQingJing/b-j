@@ -1,0 +1,40 @@
+.pro-detail{
+    width:7.5rem;
+    height:0.8rem;
+    background: #fff;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+    font-size:0.26rem;
+    color:#666;
+    font-weight: Medium;
+    margin-top:0.2rem;
+}
+.pro-txt{
+    width:1.2;
+}
+input:focus { outline: none; }
+.pro-detail input{
+    width:4.86rem;
+    border:none;
+    text-align:right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pro-pad{
+    padding-bottom:1.5rem;
+    box-sizing: border-box;
+}
+.pro-pic{
+    width:6.86rem;
+    height:3.76rem;
+    margin: 0.2rem auto;
+}
+.pro-pic img{
+    width:6.86rem;
+    height:3.76rem;
+}

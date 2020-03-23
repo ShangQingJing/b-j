@@ -1,0 +1,71 @@
+.Personalhead{
+    width:7.5rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0rem 0.3rem 0 0.3rem;
+    box-sizing:border-box;
+    }
+    .Personalcenter .avatar-uploader{
+        width:5.5rem;
+    }
+    .headimg{
+    width:0.13rem;
+    height:0.23rem;
+    }
+    .Headmain{
+        width:7.5rem;
+        height:0.8rem;
+        background:#fff;
+        margin-top:0.15rem;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: space-between;
+        padding:0 0.2rem 0 0.2rem;
+        box-sizing: border-box;
+        font-size:0.28rem;
+        color:#999;
+        font-weight: Medium;
+        background:#fff;
+    }
+    .Perimg{
+        height:100%; 
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+    .Headmain input{
+        text-align:right;
+    }
+    input:focus { outline: none; }
+    .Submitbtn{
+        width:100%;
+        height:1rem;
+        display:flex;
+        flex-direction: row;
+        margin-top:1rem;
+        align-items:center;
+        justify-content: center;
+    }
+    .Submitbtn .main{
+        width:3.43rem;
+        height:0.8rem;
+        background:#0098ff;
+        font-size: 0.28rem;
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        color:#fff;
+        font-weight: Medium;
+        border-radius:0.2rem;
+    }
+    input[disabled]{
+        background:#fff;
+    }
+    .ishide{
+        display:none !important;
+    }
