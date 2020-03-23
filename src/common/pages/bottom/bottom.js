@@ -37,7 +37,7 @@ class Bottom extends Component {
     });
   };
  componentWillReceiveProps(nextProps){
-console.log(nextProps,'nextProps')
+console.log(nextProps,'nextProps'   )
  };
   render() {
     const _self = this;
